@@ -8,7 +8,9 @@
   },
   "scripts": {
     "start": "coffee app.coffee",
-    "test": "NODE_ENV=test ./node_modules/.bin/mocha --timeout 2000 --require coffee-script/register --require should --reporter spec test/main.coffee"
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha --timeout 2000 --require coffee-script/register --require should --reporter spec test/main.coffee",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -78,6 +80,8 @@
     "talk-services": "^3.1.2",
     "uuid": "^2.0.1",
     "validator": "^4.0.5",
-    "xss": "^0.2.7"
-  }
+    "xss": "^0.2.7",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
