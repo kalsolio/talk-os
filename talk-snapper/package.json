@@ -26,7 +26,7 @@
     "graceful-logger": "^0.4.3",
     "hiredis": "^0.4.0",
     "lodash": "^3.10.1",
-    "primus": "^3.2.1",
+    "primus": "^5.2.1",
     "redis": "^0.12.1"
   }
 }
