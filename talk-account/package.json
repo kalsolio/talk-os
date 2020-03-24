@@ -79,7 +79,7 @@
     "keycode": "^2.1.0",
     "limbo": "^0.3.3",
     "lodash": "^3.10.1",
-    "mongoose": "^4.1.3",
+    "mongoose": "^5.3.9",
     "morgan": "^1.6.1",
     "object-assign": "^4.0.1",
     "phone": "^1.0.5",
