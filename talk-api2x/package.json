@@ -59,7 +59,7 @@
     "limbo": "^0.3.3",
     "lodash": "^3.10.1",
     "mailgun-js": "^0.7.1",
-    "marked": "^0.3.5",
+    "marked": "^1.1.1",
     "moment": "^2.10.6",
     "moment-timezone": "^0.5.0",
     "mongoosastic": "^3.4.0",
